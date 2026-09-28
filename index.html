@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============ SEO ============ -->
+  <title>Piyush Bhatt — Uttarakhandi Singer from Pithoragarh</title>
+  <meta name="description" content="Official portfolio of Piyush Bhatt, young Uttarakhandi singer from Pithoragarh. Listen to his latest songs, watch reels, and book him for events." />
+  <meta name="keywords" content="Piyush Bhatt, Uttarakhandi singer, Pithoragarh, Garhwali singer, Kumaoni music, folk singer Uttarakhand" />
+  <meta name="author" content="Piyush Bhatt" />
+
+  <!-- ============ Open Graph (WhatsApp/Instagram/Facebook preview) ============ -->
+  <meta property="og:title" content="Piyush Bhatt — Uttarakhandi Singer" />
+  <meta property="og:description" content="Young Uttarakhandi singer from Pithoragarh. Listen, watch, and book." />
+  <meta property="og:image" content="images/hero.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://piyushbhatt.com" />
+
+  <!-- ============ Twitter Card ============ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Piyush Bhatt — Uttarakhandi Singer" />
+  <meta name="twitter:description" content="Young Uttarakhandi singer from Pithoragarh." />
+  <meta name="twitter:image" content="images/hero.jpg" />
+
+  <!-- ============ Favicon ============ -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  <!-- ============ Google Fonts ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- ============ Styles ============ -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================================================
+       NAVBAR
+  ================================================== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Piyush Bhatt</a>
+
+      <!-- Mobile menu toggle -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================================================
+       HERO
+  ================================================== -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">🎵 Uttarakhandi Singer</p>
+        <h1>Piyush Bhatt</h1>
+        <p class="tagline">
+          Young voice from Pithoragarh — carrying the soul of the Himalayas
+          through Garhwali &amp; Kumaoni music.
+        </p>
+        <div class="hero-buttons">
+          <a href="#music" class="btn btn-primary">🎧 Listen Now</a>
+          <a href="#contact" class="btn btn-outline">📩 Book for Events</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero.jpg" alt="Piyush Bhatt performing live" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================
+       ABOUT
+  ================================================== -->
+  <section id="about" class="section">
+    <div class="container about-inner">
+      <div class="about-image">
+        <img src="images/about.jpg" alt="Piyush Bhatt portrait" />
+      </div>
+      <div class="about-text">
+        <h2>About Piyush</h2>
+        <p>
+          Piyush Bhatt is a young singer from <strong>Pithoragarh, Uttarakhand</strong>,
+          known for blending traditional Garhwali and Kumaoni folk with a
+          fresh, modern touch.
+        </p>
+        <p>
+          Since his early performances, he has been sharing the music, stories,
+          and soul of the Himalayas with a growing audience — both online and on stage.
+        </p>
+        <p>
+          His voice carries the warmth of the hills, and his songs celebrate
+          the culture of Uttarakhand.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">1K+</span>
+            <span class="stat-label">Instagram Followers</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Live Performances</span>
+          </div>
+          <!-- <div class="stat">
+            <span class="stat-num">20+</span>
+            <span class="stat-label">Original Songs</span>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================
+       MUSIC / REELS
+  ================================================== -->
+  <section id="music" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Latest Reels</h2>
+      <p class="section-subtitle">Watch Piyush's latest performances on Instagram</p>
+
+      <div id="reels-grid" class="reels-grid">
+        <!-- Reels injected dynamically from data/videos.json -->
+        <p class="loading-text">Loading reels...</p>
+      </div>
+
+      <div class="center-btn">
+        <a
+          href="https://www.instagram.com/piyush_bhatt_presents"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary"
+        >
+          Follow on Instagram →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================
+       GALLERY
+  ================================================== -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2 class="section-title">Gallery</h2>
+      <p class="section-subtitle">Moments from stage, studio &amp; beyond</p>
+
+      <div class="gallery-grid">
+        <img src="images/gallery/live1.jpg" alt="Live performance" loading="lazy" />
+        <img src="images/gallery/live2.jpg" alt="Live performance" loading="lazy" />
+        <img src="images/gallery/studio1.jpg" alt="Studio session" loading="lazy" />
+        <img src="images/gallery/studio3.jpg" alt="Backstage" loading="lazy" />
+        <img src="images/gallery/live3.jpg" alt="Stage performance" loading="lazy" />
+        <img src="images/gallery/studio2.jpg" alt="Recording session" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================
+       CONTACT
+  ================================================== -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-inner">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-subtitle">
+        Bookings, collaborations, ya bas hello kehne ke liye!
+      </p>
+
+      <!-- Contact Form (Formspree) -->
+      <form
+        class="contact-form"
+        id="contact-form"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="tel" name="phone" placeholder="Phone (optional)" />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          rows="5"
+          required
+        ></textarea>
+
+        <!-- Honeypot spam protection -->
+        <input type="text" name="_gotcha" style="display:none" />
+
+        <button type="submit" class="btn btn-primary">📩 Send Message</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+
+      <!-- OR divider -->
+      <div class="divider"><span>OR</span></div>
+
+      <!-- WhatsApp direct button -->
+      <a
+        href="https://wa.me/919760651947?text=Hi%20Piyush%2C%20I%20want%20to%20book%20you%20for%20an%20event"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-whatsapp"
+      >
+        💬 Chat on WhatsApp
+      </a>
+
+      <!-- Direct contact info -->
+      <p class="direct-contact">
+        📧 <a href="mailto:hello@piyushbhatt.com">hello@piyushbhatt.com</a>
+        &nbsp;|&nbsp;
+        📞 <a href="tel:+919760651947">+91 97606 51947</a>
+      </p>
+
+      <!-- Social links -->
+      <div class="social-links">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <!-- <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://open.spotify.com/" target="_blank" rel="noopener">Spotify</a> -->
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================
+       FOOTER
+  ================================================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Piyush Bhatt</p>
+      <p class="footer-tag">Uttarakhandi Singer • Pithoragarh</p>
+      <p class="footer-copy">© <span id="year"></span> Piyush Bhatt. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============ Scripts ============ -->
+  <script src="script.js"></script>
+</body>
+</html>

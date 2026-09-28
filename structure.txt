@@ -1,0 +1,12 @@
+portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── data/
+│   └── videos.json          ← reels ke liye
+├── images/
+│   ├── hero.jpg
+│   ├── about.jpg
+│   ├── gallery/
+│   └── reels/
+└── README.md
